@@ -66,5 +66,6 @@ driver.quit()
 df = pd.DataFrame(dados)
 df.to_csv("posts_nitterteste.csv", index=False, encoding="utf-8")
 
-print("trquivo criado")
+print("arquivo criado")
+
 print("total coletado:", len(dados))
